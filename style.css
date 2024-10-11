@@ -18,7 +18,7 @@ body{
     font-size: 32px;
     overflow: hidden;
     position: relative;
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(189, 189, 189);
 }
 
 header{
@@ -44,9 +44,16 @@ a{
     height: 610px;
 }
 
-.red{ 
-    background-color: red; 
+#red{ 
+    background: linear-gradient(49deg, rgba(255,0,0,1) 0%, rgba(219,0,0,1) 47%, rgba(255,51,51,1) 56%, rgba(255,5,5,1) 60%, rgba(255,5,5,1) 100%);
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
 }
+
+.red{
+    background-color: red;
+}
+
 
 .yellow{ 
     background-color: rgb(255, 230, 0); 
@@ -66,7 +73,7 @@ td{
     text-align: center;
     font-size: 18px;
     font-weight: bold;
-    color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0.397);
 }
 
 .Table01{
@@ -104,6 +111,18 @@ td{
 
 .tableInside{
     margin: 50px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 50% 0%;
+	}
+	50% {
+		background-position: 50% 100%;
+	}
+	100% {
+		background-position: 50% 0%;
+	}
 }
 
 
