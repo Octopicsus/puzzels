@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'edu';
-    src: url("/puzzels/fonts/EduAUVICWANTGuides-Regular.ttf");
+    src: url('/puzzels/fonts/EduAUVICWANTGuides-Regular.ttf');
 } 
 
 @font-face {
     font-family: 'edum';
-    src: url("/puzzels/fonts/EduAUVICWANTGuides-Medium.ttf");
+    src: url('/puzzels/fonts/EduAUVICWANTGuides-Medium.ttf');
 } 
 
 
