@@ -35,13 +35,13 @@ a{
     color: rgb(0, 0, 0);
     text-align: end;
     width: 100vw;
-    padding-right: 10%;
+    padding-right: 13%;
 }
 
 .Art table{
     border-collapse: collapse;
-    width: 500px;
-    height: 510px;
+    width: 600px;
+    height: 610px;
 }
 
 .red{ 
@@ -82,8 +82,31 @@ td{
 }
 
 .Table01 td{
-    border: 1px solid black;
+    border: 0px solid black;
 }
+
+.Table02{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Table02 table{
+    width: 90%;
+    height: 350px;
+    background-color: black;
+}
+
+.Table02 td{
+    border: 0px solid black;
+}
+
+.tableInside{
+    margin: 50px;
+}
+
+
 
 
 
